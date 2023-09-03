@@ -1,5 +1,5 @@
 package PrincipioAbiertoCerrado;
 
-public class Figura {
-    public void dibujar(){};
+public interface  Figura {
+    public void dibujar();
 }

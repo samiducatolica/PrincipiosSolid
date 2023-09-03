@@ -1,4 +1,8 @@
 package PrincipioAbiertoCerrado;
 
-public class Cuadrado extends Figura{
+public class Cuadrado implements Figura{
+    @Override
+    public void dibujar() {
+
+    }
 }

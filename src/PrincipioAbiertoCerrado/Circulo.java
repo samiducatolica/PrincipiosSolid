@@ -1,4 +1,8 @@
 package PrincipioAbiertoCerrado;
 
-public class Circulo extends Figura{
+public class Circulo implements Figura{
+    @Override
+    public void dibujar() {
+
+    }
 }
