@@ -20,6 +20,10 @@ public class Factura {
         CalcularIVA ci = new CalcularIVA();
         importeIVA = ci.calculaIVA(importeFactura);
         //Calcular el total
-        importeTotal = (importeFactura-importeDeduccion)+importeIVA;
+        if(_codigo.equalsIgnoreCase("0")){
+            importeTotal = (importeFactura - importeDeduccion);
+        }else {
+            importeTotal = (importeFactura - importeDeduccion) + importeIVA;
+        }
     }
 }
